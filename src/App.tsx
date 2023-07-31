@@ -1,9 +1,13 @@
-import './App.css'
+import React from "react";
+import './App.css';
+import NavBar from "./components/NavBar/NavBar";
+import LandingPage from "./components/LandingPage/LandingPage";
 
-function App() {
+const App = () => {
   return (
       <div>
-        <h1 className='text-red-300'>Welcome to my resume</h1>
+        <NavBar />
+        <LandingPage />
       </div>
   )
 }
