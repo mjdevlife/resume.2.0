@@ -29,3 +29,7 @@ If you are developing a production application, we recommend updating the config
 ## Watch Tailwind
 
 npx tailwindcss -i ./src/app.css -o ./dist/output.css --watch
+
+## Live Demo
+
+[Demo](https://seniordev-portfolio.netlify.app/)
