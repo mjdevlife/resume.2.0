@@ -5,6 +5,7 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import Projects from "./components/Projects/Projects";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
+import About from "./components/About/About";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/" element={<LandingPage />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>
