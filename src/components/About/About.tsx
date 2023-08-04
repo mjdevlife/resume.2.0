@@ -66,7 +66,7 @@ const About = () => {
           </p>
         </section>
         <section className='border-t-2 w-full flex justify-center items-center py-10'>
-           <a href="src/assets/GodsWilOnwuchekwaResumeUpdated.v3.pdf" download="Godwil Onwuchekwa CV" className='border-2 px-5 py-2 rounded-md'>
+           <a href="/src/assets/GodsWilOnwuchekwaResumeUpdated.v3.pdf" download="Godswil Onwuchekwa CV" className='border-2 px-5 py-2 rounded-md'>
                Download CV
            </a>
         </section>
@@ -74,4 +74,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;
