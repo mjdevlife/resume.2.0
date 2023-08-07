@@ -1,35 +1,73 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This a project that displays my projects and skills as a software developer.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [My Portfolio](#my-portfolio)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+    - [Watch Tailwind](#watch-tailwind)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [To run tests](#to-run-tests)
+  - [Author](#author)
+  - [📝 License ](#-license-)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### The challenge
 
-- Configure the top-level `parserOptions` property like this:
+Users should be able to:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- see a list of projects the developer has worked on.
+- reach the developer via whatsapp when they click on the email, linkedin, and whatsapp button in the Contact Page.
+- download the developers CV when they click on the "Download CV" button in the About page.
+- see a list of skills the developer has when they click on the Skills page.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Links
 
-## Watch Tailwind
+- [Demo](https://seniordev-portfolio.netlify.app/)
+  
+### Watch Tailwind
 
-npx tailwindcss -i ./src/app.css -o ./dist/output.css --watch
+- npx tailwindcss -i ./src/app.css -o ./dist/output.css --watch
 
-## Live Demo
+## My process
 
-[Demo](https://seniordev-portfolio.netlify.app/)
+### Built with
+
+> Developed using vite.
+<details>
+  <summary>Language and frame-work</summary>
+  <ul>
+    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+  </ul>
+   <ul>
+    <li><a href="https://react.dev/">React</a></li>
+  </ul>
+     <ul>
+    <li><a href="https://vitejs.dev/">Vite</a></li>
+  </ul>
+</details>
+
+>### Setup
+
+- Clone this [repository](https://github.com/seniortechdev/resume.2.0) to your desired folder.
+- Access `cd resume.2.0`
+- npm install
+- npm run dev
+
+### To run tests
+
+- run `npm test`
+
+## Author
+
+- GitHub: [@seniortechdev](https://github.com/https://github.com/seniortechdev)
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
