@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-    FaGithub, FaInstagram, FaLinkedinIn, FaTwitter,
-} from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 
 const LandingPage = () => {
