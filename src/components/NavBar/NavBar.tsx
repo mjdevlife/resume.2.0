@@ -30,7 +30,9 @@ const NavBar = () => {
                 <li>
                   <NavLink to="/projects">Projects</NavLink>
                 </li>
-                <li>Skills</li>
+                <li>
+                  <NavLink to="/skills">Skills</NavLink>
+                </li>
                 <li>
                   <NavLink to="/about">About</NavLink>
                 </li>
@@ -46,7 +48,9 @@ const NavBar = () => {
             <li className='border-r-2 pr-2'>
               <NavLink to="/projects">Projects</NavLink>
             </li>
-            <li className='border-r-2 pr-2'>Skills</li>
+            <li className='border-r-2 pr-2'>
+              <NavLink to="/skills">Skills</NavLink>
+            </li>
             <li className='border-r-2 pr-2'>
               <NavLink to="/about">About</NavLink>
             </li>
