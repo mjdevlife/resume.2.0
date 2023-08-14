@@ -614,8 +614,24 @@ video {
   flex-direction: column;
 }
 
+.place-content-center {
+  place-content: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -630,6 +646,14 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-stretch {
+  justify-content: stretch;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -640,10 +664,6 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .self-start {
@@ -737,6 +757,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .pr-2 {
   padding-right: 0.5rem;
 }
@@ -794,6 +819,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
@@ -820,16 +850,12 @@ video {
     width: 60vw;
   }
 
-  .tablet\:max-w-mid {
-    max-width: 50vw;
+  .tablet\:max-w-rousel {
+    max-width: 80vw;
   }
 
   .tablet\:max-w-rouselMin {
     max-width: 60vw;
-  }
-
-  .tablet\:max-w-rousel {
-    max-width: 80vw;
   }
 
   .tablet\:px-\[12vw\] {
@@ -840,6 +866,21 @@ video {
   .tablet\:px-\[8vw\] {
     padding-left: 8vw;
     padding-right: 8vw;
+  }
+
+  .tablet\:px-\[20vw\] {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+
+  .tablet\:px-\[15vw\] {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+
+  .tablet\:px-\[10vw\] {
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 }
 
@@ -852,10 +893,6 @@ video {
     display: none;
   }
 
-  .desktop\:max-h-m {
-    max-height: 50vh;
-  }
-
   .desktop\:max-h-xl {
     max-height: 80vh;
   }
@@ -864,16 +901,24 @@ video {
     width: 50vw;
   }
 
+  .desktop\:w-\[40vw\] {
+    width: 40vw;
+  }
+
+  .desktop\:max-w-\[40vw\] {
+    max-width: 40vw;
+  }
+
   .desktop\:max-w-mid {
     max-width: 50vw;
   }
 
-  .desktop\:flex-row {
-    flex-direction: row;
-  }
-
   .desktop\:flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .desktop\:justify-center {
+    justify-content: center;
   }
 
   .desktop\:px-\[10vw\] {
@@ -889,5 +934,15 @@ video {
   .desktop\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .desktop\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .desktop\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
