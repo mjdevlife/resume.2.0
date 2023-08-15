@@ -614,24 +614,8 @@ video {
   flex-direction: column;
 }
 
-.place-content-center {
-  place-content: center;
-}
-
-.items-start {
-  align-items: flex-start;
-}
-
-.items-end {
-  align-items: flex-end;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-end {
@@ -646,14 +630,6 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-stretch {
-  justify-content: stretch;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
@@ -666,8 +642,20 @@ video {
   gap: 1.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .self-start {
   align-self: flex-start;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .rounded-lg {
@@ -710,6 +698,11 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .px-3 {
@@ -757,9 +750,9 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pr-2 {
@@ -809,19 +802,14 @@ video {
   line-height: 1;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-red-500 {
@@ -841,6 +829,10 @@ video {
   text-underline-offset: 4px;
 }
 
+.underline-offset-8 {
+  text-underline-offset: 8px;
+}
+
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -848,10 +840,6 @@ video {
 @media (min-width: 481px) {
   .tablet\:w-\[60vw\] {
     width: 60vw;
-  }
-
-  .tablet\:max-w-rousel {
-    max-width: 80vw;
   }
 
   .tablet\:max-w-rouselMin {
@@ -863,24 +851,14 @@ video {
     padding-right: 12vw;
   }
 
-  .tablet\:px-\[8vw\] {
-    padding-left: 8vw;
-    padding-right: 8vw;
-  }
-
-  .tablet\:px-\[20vw\] {
-    padding-left: 20vw;
-    padding-right: 20vw;
-  }
-
   .tablet\:px-\[15vw\] {
     padding-left: 15vw;
     padding-right: 15vw;
   }
 
-  .tablet\:px-\[10vw\] {
-    padding-left: 10vw;
-    padding-right: 10vw;
+  .tablet\:px-\[8vw\] {
+    padding-left: 8vw;
+    padding-right: 8vw;
   }
 }
 
@@ -893,20 +871,8 @@ video {
     display: none;
   }
 
-  .desktop\:max-h-xl {
-    max-height: 80vh;
-  }
-
   .desktop\:w-\[50vw\] {
     width: 50vw;
-  }
-
-  .desktop\:w-\[40vw\] {
-    width: 40vw;
-  }
-
-  .desktop\:max-w-\[40vw\] {
-    max-width: 40vw;
   }
 
   .desktop\:max-w-mid {
@@ -915,10 +881,6 @@ video {
 
   .desktop\:flex-wrap {
     flex-wrap: wrap;
-  }
-
-  .desktop\:justify-center {
-    justify-content: center;
   }
 
   .desktop\:px-\[10vw\] {
@@ -934,15 +896,5 @@ video {
   .desktop\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-  }
-
-  .desktop\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .desktop\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 }
