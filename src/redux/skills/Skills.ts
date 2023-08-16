@@ -1,12 +1,6 @@
 import defaultState from './defaultState';
+import { GET_SKILLS } from './actions';
 
-const GET_SKILLS = 'RESUME.2.0/src/redux/skills/getSkills';
-
-export const getSkills = () => (
-  {
-    type: GET_SKILLS,
-  }
-);
 
 const skillsReducer = (state = defaultState, action: { type: any; }) => {
   switch (action.type) {
