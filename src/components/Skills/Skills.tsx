@@ -16,8 +16,8 @@ const Skills = () => {
                 <span className='text-3xl py-5 text-center'>{skill.title}</span>
                  <table>
                    <tbody className='grid grid-cols-2 gap-5'>
-                    {skill.skillArray.map(subSkill => (
-                    <tr className='flex flex-row items-center justify-center px-20 tablet:px-[15vw] desktop:px-[10vw]'>
+                    {skill.skillArray.map((subSkill, index) => (
+                    <tr key={index} className='flex flex-row items-center justify-center px-20 tablet:px-[15vw] desktop:px-[10vw]'>
                       <td>
                       <IconContext.Provider value={{ size: '1.5em', className: 'global-class-name' }}>
                          <BsPatchCheck />
