@@ -28,7 +28,7 @@ const NavBar = () => {
              onClick={() => setOpen(false)}
             >
                 <li>
-                  <NavLink to="/projects">Projects</NavLink>
+                  <NavLink to="/experiences">Experience</NavLink>
                 </li>
                 <li>
                   <NavLink to="/skills">Skills</NavLink>
@@ -46,7 +46,7 @@ const NavBar = () => {
           role="list"
         >
             <li className='border-r-2 pr-2'>
-              <NavLink to="/projects">Projects</NavLink>
+              <NavLink to="/experiences">Experience</NavLink>
             </li>
             <li className='border-r-2 pr-2'>
               <NavLink to="/skills">Skills</NavLink>
