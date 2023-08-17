@@ -6,7 +6,7 @@ const defaultState = [
         companyName: 'Cryoport',
         employmentSpan: ["January 2021", "May 2023"],
         employmentStack: "Ruby on Rails Engineer",
-        searchStack: "ror",
+        searchStack: ["ror", "js", "javascript", "aws", "amazon web services", "react"],
         projectBrief: [
           `
           At Cryoport, a prominent pharmaceutical enterprise, the imperative was to devise
@@ -93,7 +93,7 @@ const defaultState = [
         companyName: 'Amazon',
         employmentSpan: ["January 2018 ", "December 2021"],
         employmentStack: "Full Stack / Ruby on Rails Engineer",
-        searchStack: "ror",
+        searchStack: ["ror", "react", "vue", "typescript", "vanilla", "js", "javascript", "ts"],
         projectBrief: [
             `
             As an esteemed e-commerce titan, Amazon's indomitable presence in the industry is unrivaled.
@@ -202,6 +202,231 @@ const defaultState = [
             resulting in the timely delivery of key milestones and project goals.
         `,
         ],
+    },
+    {
+      id: uuidv4(),
+      companyName: 'Ebay',
+      employmentSpan: ["October  2016", "December 2017"],
+      employmentStack: "Software Engineer",
+      searchStack: ["react", "ror", "node", "ruby on rails"],
+      projectBrief: [
+        `
+          During my tenure at eBay, a prominent e-commerce platform facilitating both consumer-to-consumer
+          and business-to-consumer transactions, I embarked on a pivotal juncture in my career.
+          This engagement marked my transition from freelancing to a formal professional role.
+          Entrusted with the title of Software Engineer, my responsibilities encompassed an array of critical tasks,
+          with an emphasis on documentation, test script composition, and backend project involvement.
+        `,
+        `
+          An integral facet of my experience at eBay was the invaluable opportunity to collaborate with seasoned
+          professionals and benefit from their mentorship. My interaction with senior developers facilitated not only
+          the refinement of my technical skills but also a comprehensive understanding of industry standards and best
+          practices. Rigorous code reviews were an essential component of this learning process, ensuring that my
+          contributions aligned with the highest coding standards and software conventions.
+        `,
+        `
+          This chapter of my career at eBay remains among the most captivating and enriching phases. Each day presented
+          an occasion for learning and growth, amplifying my proficiency in diverse facets of software engineering.
+          My involvement encompassed not only the sphere of software development but also the cultivation of a meticulous
+          approach to documentation, a proficiency in crafting effective tests, and a chance to make meaningful contributions
+          to backend projects.
+        `,
+        `
+          In summation, my time at eBay was characterized by an immersive professional journey, wherein I evolved from a
+          freelancer to a proactive member of a dynamic software engineering team. The exposure to multifaceted tasks,
+          coupled with the privilege of mentorship and collaborative learning, has indelibly contributed to my ongoing
+          pursuit of excellence in the realm of software engineering.
+        `,
+      ],
+      implementations: [
+        `
+          Building stable and maintainable codebases using React, Ruby on Rails, and Node.
+        `,
+        `
+          Applied a mobile-first approach to existing websites, ensuring that the user experience
+          was seamless and optimized across different devices and screen sizes. Leveraged responsive
+          design techniques and frameworks like Bootstrap or Tailwind CSS to create fluid and adaptable layouts.
+        `,
+        `
+          Implemented comprehensive testing strategies using tools like Jest, RSpec, and Mocha to ensure the stability
+          and maintainability of codebases built with React, Ruby on Rails, and Node.
+        `,
+        `
+          Employed testing frameworks to write unit tests, integration tests, and end-to-end tests, covering critical
+          functionality and edge cases.
+        `,
+        `
+          Collaborating with designers to ensure designs were efficient and technically sound.
+        `,
+        `
+          Creating modular, responsive templates using modern CSS techniques and JavaScript libraries.
+        `,
+        `
+          Optimized front-end performance through code optimization, caching, and other techniques, resulting
+          in faster page load times and improved user experience.
+        `,
+        `
+          Assist with the transition from a U+0077aterfall method to a more efficient Agile methodology.
+        `,
+        `
+          Implemented real-time features using WebSockets and event-driven architecture, enhancing user engagement
+          and interactivity on the platform.
+        `,
+        `
+          Conducted code reviews and provided constructive feedback to peers, fostering a culture of collaboration and
+          continuous improvement within the development team.
+        `,
+        `
+          Worked closely with product managers to gather and refine requirements, translating them into actionable technical
+          tasks and project deliverables.
+        `,
+        `
+          Integrated internationalization (i18n) and localization (l10n) features into web applications,
+          allowing the platform to be accessible to a global audience.
+        `,
+        `
+          Led the adoption of containerization technologies like Docker for development and production environments,
+          streamlining the deployment process and ensuring consistency across different stages of development.
+        `,
+        `
+          Implemented user authentication and authorization mechanisms using OAuth and JWT, enhancing security
+          and user privacy on the platform.
+        `,
+        `
+          Developed and maintained RESTful APIs, enabling seamless communication between frontend and
+          backend systems and supporting third-party integrations.
+        `,
+        `
+          Conducted usability testing and gathered user feedback to inform design and development decisions,
+          resulting in iterative improvements to the user interface and user experience.
+        `,
+        `
+          Actively participated in sprint planning, daily stand-ups, and retrospectives, contributing to the
+          team's Agile process and fostering a culture of transparency and adaptability.
+        `,
+        `
+          Investigated and resolved production issues and bugs, employing debugging tools and error tracking
+          systems to ensure a stable and reliable platform.
+        `,
+        `
+          Mentored and onboarded new team members, facilitating their integration into the team and providing
+          guidance on best practices and coding standards.
+        `,
+        `
+          Participated in hackathons and innovation initiatives, contributing creative solutions and prototypes
+          to address business challenges and explore new opportunities.
+        `
+      ],
+    },
+    {
+      id: uuidv4(),
+      companyName: 'Upwork',
+      employmentSpan: ["January  2013", "October  2016"],
+      employmentStack: "Freelance",
+      searchStack: ["react", "ror", "javascript", "js", "jquery"],
+      projectBrief: [
+        `
+          My engagement with Upwork, a prominent online freelancing platform, afforded me a
+          unique vantage point into the realm of remote collaboration and project-based engagements.
+          Upwork serves as a conduit for clients seeking to engage proficient freelancers and freelance agencies
+          for a myriad of projects, facilitated through its well-structured platform.
+        `,
+        `
+          Within this ecosystem, clients initiate the process by articulating the specifics of their projects and stipulating
+          a budget range commensurate with their expectations. Subsequently, freelancers, including myself,
+          have the opportunity to respond to these project descriptions, showcasing their qualifications and suitability
+          for the tasks at hand. Alternatively, clients can opt to make their projects open for application to a broader
+          pool of interested freelancers.
+        `,
+        `
+          A pivotal aspect of this experience was recognizing the paramount importance of effective communication when liaising
+          with clients hailing from diverse cultural and professional backgrounds. This realization was particularly pronounced
+          when engaging with clients lacking a coding background, underscoring the need for clarity, concise explanations,
+          and patience in articulating technical concepts.
+        `,
+        `
+          While my involvement with Upwork primarily constituted a research phase, it provided me with invaluable insights into
+          the nuances of cross-cultural communication, the intricacies of project scoping, and the necessity of
+          tailoring technical discussions to suit the client's level of understanding. This exploration served as a
+          foundation for my subsequent endeavors, reinforcing my conviction that clear and adept communication is
+          the linchpin for successful collaboration, especially in the context of interdisciplinary projects.
+        `,
+        `
+          In essence, my time on the Upwork platform was a pivotal juncture in my professional journey, where I
+          engaged with the global freelance community, imbibed crucial communication skills, and internalized the
+          importance of adaptability in catering to diverse client profiles. These lessons continue to resonate in
+          my ongoing pursuit of excellence in software engineering and project collaboration.
+        `,
+      ],
+      implementations: [
+       `
+          Research and implement tons of React and JavaScript functionality for a richer Front-End experience.
+       `,
+       `
+          Ruby on Rails, JavaScript, React, jQuerry, Behavioral Driven Development (BDD) and pair based programming is
+          used to develop client-based features and applications.
+       `,
+       `
+          Used JIRA for real-time issue tracking, bug tracking, and project management functions Installation and configuration
+          of multiple versions of Ruby on Rails.
+       `,
+       `
+          Leveraged existing APIs available (Google) to adopt other services to adjust to tight deadlines and use
+          already built functionality.
+       `,
+       `
+          Collaborated with clients to understand project requirements and deliver custom React and JavaScript solutions
+          that exceeded expectations and enhanced user experience.
+       `,
+       `
+          Developed responsive and mobile-friendly web applications using Bootstrap and media queries to ensure seamless user
+          interactions across various devices.
+       `,
+       `
+          Implemented Redux for state management in React applications, enhancing the scalability and maintainability of
+          complex frontend architectures.
+       `,
+       `
+          Participated in code refactoring initiatives, improving code quality and adhering to best practices for clean,
+          efficient, and maintainable code.
+       `,
+       `
+          Integrated third-party APIs, such as Stripe and PayPal, to enable secure and seamless payment processing in e-commerce
+          applications.
+       `,
+       `
+          Utilized Test-Driven Development (TDD) practices, writing unit tests with frameworks like Enzyme and Jasmine to ensure
+          code reliability and facilitate future code changes.
+       `,
+       `
+          Collaborated with UX designers to convert wireframes and mockups into interactive web pages with
+          pixel-perfect precision and attention to detail.
+       `,
+       `
+          Implemented server-side rendering (SSR) for React applications using frameworks like Next.js, enhancing SEO and
+          reducing initial page load times.
+       `,
+       `
+          Led client-facing meetings and status updates, providing clear communication and progress reports on project milestones
+          and deliverables.
+       `,
+       `
+          Conducted load testing and performance optimization using tools like Lighthouse and WebPageTest, ensuring high
+          application performance and user satisfaction.
+       `,
+       `
+          Utilized Git and GitHub for version control and collaborative development, maintaining organized
+          and efficient code repositories.
+       `,
+       `
+          Provided technical support and training to clients on how to use and maintain the applications delivered,
+          ensuring a smooth handover and positive user experience.
+       `,
+       `
+          Developed custom plugins and extensions for content management systems (CMS) like WordPress and Joomla,
+          enabling tailored functionalities to meet client requirements.
+       `,
+      ],
     },
 ];
 
