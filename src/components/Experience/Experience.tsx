@@ -13,6 +13,7 @@ const Experience = () => {
   // Use a Set to ensure unique values
   const uniqueOptionsVal = new Set<string>();
 
+  // Extract searchStack and add them to Set
   experiences.forEach((exp) => {
     exp.searchStack.forEach((stack) => {
       uniqueOptionsVal.add(stack);
