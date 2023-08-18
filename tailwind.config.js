@@ -56,10 +56,7 @@ export default {
       },
       screens: {
         // => @media (min-width: 481px) { ... }
-        tablet: "481px",
-
-        // => @media (min-width: 769px) { ... }
-        laptop: "769px",
+        tablet: "681px",
 
         // => @media (min-width: 1025px) { ... }
         desktop: "1025px",
