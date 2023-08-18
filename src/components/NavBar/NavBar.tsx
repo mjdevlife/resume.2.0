@@ -5,7 +5,9 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
     const [open, setOpen] = useState(false);
   return (
-    <div className='bg-primary fixed left-0 right-0 flex flex-row justify-between items-center px-5 py-3 tablet:px-[8vw] desktop:py-5 desktop:px-[10vw] border-b-2 border-b-line-t w-full z-40'>
+    <div 
+      className='bg-primary fixed left-0 right-0 flex flex-row justify-between items-center px-5 py-3 tablet:px-[8vw] desktop:py-5 desktop:px-[10vw] border-b-2 border-b-line-t w-full z-10'
+    >
         <NavLink to="/"
          onClick={() => setOpen(false)}
         >
@@ -42,7 +44,7 @@ const NavBar = () => {
             </ul>
           )}
         </span>
-        <ul className='hidden desktop:flex flex-row gap-2 cursor-pointer'
+        <ul className='hidden desktop:flex flex-row gap-2 cursor-pointer items-center'
           role="list"
         >
             <li className='border-r-2 pr-2'>

@@ -6,7 +6,8 @@ const defaultState = [
         companyName: 'Cryoport',
         employmentSpan: ["January 2021", "May 2023"],
         employmentStack: "Ruby on Rails Engineer",
-        searchStack: ["ror", "js", "javascript", "aws", "amazon web services", "react"],
+        searchStack: ["ror", "ruby on rails", "graphql", "GraphQl", "js", "javascript",
+                      "aws", "amazon web services", "react"],
         projectBrief: [
           `
           At Cryoport, a prominent pharmaceutical enterprise, the imperative was to devise
@@ -93,7 +94,7 @@ const defaultState = [
         companyName: 'Amazon',
         employmentSpan: ["January 2018 ", "December 2021"],
         employmentStack: "Full Stack / Ruby on Rails Engineer",
-        searchStack: ["ror", "react", "vue", "typescript", "vanilla", "js", "javascript", "ts"],
+        searchStack: ["ror", "ruby on rails", "CSS", "react", "vue", "typescript", "vanilla", "js", "javascript", "ts"],
         projectBrief: [
             `
             As an esteemed e-commerce titan, Amazon's indomitable presence in the industry is unrivaled.
@@ -323,7 +324,7 @@ const defaultState = [
       companyName: 'Upwork',
       employmentSpan: ["January  2013", "October  2016"],
       employmentStack: "Freelance",
-      searchStack: ["react", "ror", "javascript", "js", "jquery"],
+      searchStack: ["react", "javascript", "js", "jquery",],
       projectBrief: [
         `
           My engagement with Upwork, a prominent online freelancing platform, afforded me a
