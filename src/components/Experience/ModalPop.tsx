@@ -15,8 +15,8 @@ const ModalPop = ( { handleModalClose, selectedEmployment }: ModalProps ) => {
             Close
         </button>
         <div className='modal-box flex flex-col items-center w-full'>
-          <span className='py-2 text-2xl'>{selectedEmployment?.companyName.toUpperCase()}, <i className='text-sm'>Remote</i></span>
-          <ul className='flex flex-row gap-2 items-center justify-center border-b-2'>
+          <span className='py-2 text-2xl tablet:text-5xl'>{selectedEmployment?.companyName.toUpperCase()}, <i className='text-sm tablet:text-2xl'>Remote</i></span>
+          <ul className='flex flex-row gap-2 items-center justify-center border-b-2 tablet:text-2xl'>
             <li>
               <span>{selectedEmployment?.employmentSpan[0]}</span>
             </li>
@@ -25,25 +25,25 @@ const ModalPop = ( { handleModalClose, selectedEmployment }: ModalProps ) => {
               <span>{selectedEmployment?.employmentSpan[1]}</span>
             </li>
           </ul>
-          <span className='underline py-2'>{selectedEmployment?.employmentStack}</span>
+          <span className='underline py-2 tablet:text-2xl'>{selectedEmployment?.employmentStack}</span>
           {selectedEmployment?.projectBrief[0] && (
-            <p className='py-2'>{selectedEmployment.projectBrief[0]}</p>
+            <p className='py-2 tablet:text-2xl'>{selectedEmployment.projectBrief[0]}</p>
           )}
           {selectedEmployment?.projectBrief[1] && (
-            <p className='py-2'>{selectedEmployment.projectBrief[1]}</p>
+            <p className='py-2 tablet:text-2xl'>{selectedEmployment.projectBrief[1]}</p>
           )}
           {selectedEmployment?.projectBrief[2] && (
-            <p className='py-2'>{selectedEmployment.projectBrief[2]}</p>
+            <p className='py-2 tablet:text-2xl'>{selectedEmployment.projectBrief[2]}</p>
           )}
           {selectedEmployment?.projectBrief[3] && (
-            <p className='py-2'>{selectedEmployment.projectBrief[3]}</p>
+            <p className='py-2 tablet:text-2xl'>{selectedEmployment.projectBrief[3]}</p>
           )}
           {selectedEmployment?.projectBrief[4] && (
-            <p className='py-2'>{selectedEmployment.projectBrief[4]}</p>
+            <p className='py-2 tablet:text-2xl'>{selectedEmployment.projectBrief[4]}</p>
           )}
           <section className='py-3 flex flex-col gap-4'>
-            <span className='text-center text-2xl underline underline-offset-4 '>SOME OF THE TASKS I PERFORMED ARE:</span>
-            <ol className='list-disc'>
+            <span className='text-center text-2xl underline underline-offset-4 tablet:text-3xl '>SOME OF THE TASKS I PERFORMED ARE:</span>
+            <ol className='list-disc tablet:text-2xl'>
               {selectedEmployment?.implementations.map((implemented, index) => (
                 <li key={index} className='py-2'>{implemented}</li>
               ))}
