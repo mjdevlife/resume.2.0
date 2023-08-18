@@ -45,6 +45,7 @@ export default {
         m: "50vh",
         l: "70vh",
         xl: "80vh",
+        "home-image": "90vw",
       },
       maxHeight: {
         s: "20vh",
@@ -65,5 +66,14 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    styled: true,
+    themes: ["light"],
+    base: true,
+    utils: true,
+    logs: true,
+    rtl: false,
+    prefix: "",
+  },
 };
