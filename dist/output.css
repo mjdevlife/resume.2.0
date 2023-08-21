@@ -1622,20 +1622,12 @@ html {
   top: 8.5vh;
 }
 
-.top-\[20vh\] {
-  top: 20vh;
-}
-
-.z-40 {
-  z-index: 40;
-}
-
 .z-10 {
   z-index: 10;
 }
 
-.z-50 {
-  z-index: 50;
+.z-40 {
+  z-index: 40;
 }
 
 .flex {
@@ -1882,16 +1874,20 @@ html {
   padding-top: 20vh;
 }
 
-.pt-\[5vh\] {
-  padding-top: 5vh;
-}
-
 .text-left {
   text-align: left;
 }
 
 .text-center {
   text-align: center;
+}
+
+.font-montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+.font-poppins {
+  font-family: Poppins, sans-serif;
 }
 
 .text-2xl {
@@ -1919,9 +1915,40 @@ html {
   line-height: 1.75rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-semiBold {
+  font-weight: 600;
+}
+
+.text-logoColor {
+  --tw-text-opacity: 1;
+  color: rgb(96 112 255 / var(--tw-text-opacity));
+}
+
+.text-navPages {
+  --tw-text-opacity: 1;
+  color: rgb(52 69 99 / var(--tw-text-opacity));
+}
+
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-secondBlue {
+  --tw-text-opacity: 1;
+  color: rgb(127 140 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2016,24 +2043,12 @@ html {
     width: 22vw;
   }
 
-  .desktop\:w-\[30vw\] {
-    width: 30vw;
+  .desktop\:w-\[28vw\] {
+    width: 28vw;
   }
 
   .desktop\:w-\[50vw\] {
     width: 50vw;
-  }
-
-  .desktop\:w-\[20vw\] {
-    width: 20vw;
-  }
-
-  .desktop\:w-\[25vw\] {
-    width: 25vw;
-  }
-
-  .desktop\:w-\[28vw\] {
-    width: 28vw;
   }
 
   .desktop\:max-w-mid {
