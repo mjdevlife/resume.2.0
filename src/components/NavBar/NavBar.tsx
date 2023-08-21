@@ -10,6 +10,7 @@ const NavBar = () => {
     >
         <NavLink to="/"
          onClick={() => setOpen(false)}
+         className="text-logoColor font-montserrat font-semiBold"
         >
           GODSWIL ONWUCHUKWA
         </NavLink>
@@ -30,16 +31,32 @@ const NavBar = () => {
              onClick={() => setOpen(false)}
             >
                 <li>
-                  <NavLink to="/experiences">Experience</NavLink>
+                  <NavLink to="/experiences"
+                    className="text-navPages font-poppins font-medium"
+                  >
+                    Experience
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/skills">Skills</NavLink>
+                  <NavLink to="/skills"
+                    className="text-navPages font-poppins font-medium"
+                  >
+                    Skills
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about">About</NavLink>
+                  <NavLink to="/about"
+                    className="text-navPages font-poppins font-medium"
+                  >
+                    About
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact">Contact</NavLink>
+                  <NavLink to="/contact"
+                    className="text-navPages font-poppins font-medium"
+                  >
+                    Contact
+                  </NavLink>
                 </li>
             </ul>
           )}
@@ -48,16 +65,32 @@ const NavBar = () => {
           role="list"
         >
             <li className='border-r-2 pr-2'>
-              <NavLink to="/experiences">Experience</NavLink>
+              <NavLink to="/experiences"
+                className="text-navPages font-poppins font-medium"
+              >
+                Experience
+              </NavLink>
             </li>
             <li className='border-r-2 pr-2'>
-              <NavLink to="/skills">Skills</NavLink>
+              <NavLink to="/skills"
+                className="text-navPages font-poppins font-medium"
+              >
+                Skills
+              </NavLink>
             </li>
             <li className='border-r-2 pr-2'>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/about"
+                className="text-navPages font-poppins font-medium"
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contact"
+                className="text-navPages font-poppins font-medium"
+              >
+                Contact
+              </NavLink>
             </li>
         </ul>
     </div>

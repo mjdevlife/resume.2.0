@@ -8,9 +8,13 @@ export default {
         secondary: "#202020",
         tertiary: "#484848",
         black: "#000000",
+        "logoColor": "#6070FF",
+        "navPages": "#344563",
+        "secondBlue": "#7F8CFF",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       fontWeight: {
         hairline: "100",
@@ -18,7 +22,7 @@ export default {
         light: "300",
         normal: "400",
         medium: "500",
-        semibold: "600",
+        semiBold: "600",
         bold: "700",
         "extra-bold": "800",
         black: "900",
