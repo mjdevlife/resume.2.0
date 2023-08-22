@@ -54,7 +54,7 @@ const Experience = () => {
 
   return (
     <div className='py-20 px-5 flex flex-col gap-10 tablet:px-[8vw] desktop:px-[12vw]'>
-       <p className='desktop:text-2xl'>
+       <p className='desktop:text-2xl text-navPages font-medium font-poppins'>
           My expertise lies in programming and implementing web-based solutions that
           meet the evolving needs of modern businesses. I have over 8 years of experience in a wide range of technologies,
           including Typescript, JavaScript, React, Ruby on Rails, AWS, GraphQL, and Docker.
@@ -63,21 +63,21 @@ const Experience = () => {
           Below are companies I have worked with.
        </p>
        <section className='flex flex-row gap-5 justify-center items-center tablet:px-10 desktop:px-0'>
-        <ul className='inline-flex flex-row flex-wrap'>
+        <ul className='inline-flex flex-row flex-wrap text-navPages font-normal font-poppins'>
           <li className='pr-1'>Sort by</li>
           <li>stack / language / tool:</li>
         </ul>
         <Select
             options={options}
             defaultValue={[options[0]]}
-            className='w-[50vw] tablet:w-[70vw] desktop:w-[28vw]'
+            className='shadow-lg shadow-indigo-500/40  w-[50vw] tablet:w-[70vw] desktop:w-[28vw] text-navPages font-normal font-poppins'
             onChange={handleSelectChange}
         />
        </section>
        <section className='flex flex-col gap-5 tablet:px-[15vw] desktop:flex-row flex-wrap'>
           {filteredExperiences.map((experience) => (
             <div key={experience.id}
-              className='border-2 flex flex-col items-center gap-2 justify-center px-5 rounded-md py-5 desktop:w-[22vw]'
+              className=' shadow-lg shadow-indigo-500/40 border-2 flex flex-col items-center gap-2 justify-center px-5 rounded-md py-5 desktop:w-[22vw] text-navPages font-medium font-poppins'
             >
               <span className='text-xl tablet:text-3xl'>{experience.companyName.toUpperCase()},
                 <i className='text-sm tablet:text-lg'>Remote</i>
@@ -89,7 +89,10 @@ const Experience = () => {
               </ul>
               <span className='underline tablet:text-xl text-center'>{experience.employmentStack}</span>
               <p>{experience.projectBrief[0].slice(0, 300)}...</p>
-              <button type='button' className='border-2 rounded-md p-2 self-end' onClick={() => handleModalPop(experience)}>
+              <button type='button'
+                className='btn self-end text-navPages font-normal font-poppins btn-outline btn-secondary'
+                onClick={() => handleModalPop(experience)}
+              >
                 View more 
               </button>
             </div>
