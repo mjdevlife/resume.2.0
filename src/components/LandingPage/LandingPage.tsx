@@ -11,7 +11,7 @@ const LandingPage = () => {
         Welcome.
         <br />
         Glad you to see you!</span>
-        <p className='text-3xl pt-5 text-navPages font-normal'
+        <p className='text-3xl pt-5 text-navPages font-normal font-poppins'
           data-testid="welcome-paragraph"
         >
           I’m a software developer! I can help you build a product,
