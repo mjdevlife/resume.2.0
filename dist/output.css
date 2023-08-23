@@ -689,13 +689,6 @@ html {
     background-color: hsl(var(--b3) / var(--tw-bg-opacity));
   }
 
-  .btn-primary:hover {
-    --tw-border-opacity: 1;
-    border-color: hsl(var(--pf) / var(--tw-border-opacity));
-    --tw-bg-opacity: 1;
-    background-color: hsl(var(--pf) / var(--tw-bg-opacity));
-  }
-
   .btn-secondary:hover {
     --tw-border-opacity: 1;
     border-color: hsl(var(--sf) / var(--tw-border-opacity));
@@ -1066,23 +1059,6 @@ html {
   outline-style: solid;
   outline-width: 2px;
   outline-offset: 2px;
-}
-
-.btn-primary {
-  --tw-border-opacity: 1;
-  border-color: hsl(var(--p) / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--p) / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: hsl(var(--pc) / var(--tw-text-opacity));
-  outline-color: hsl(var(--p) / 1);
-}
-
-.btn-primary.btn-active {
-  --tw-border-opacity: 1;
-  border-color: hsl(var(--pf) / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--pf) / var(--tw-bg-opacity));
 }
 
 .btn-secondary {
@@ -2178,6 +2154,11 @@ html {
   color: rgb(52 69 99 / var(--tw-text-opacity));
 }
 
+.text-primary {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
@@ -2303,6 +2284,14 @@ html {
     max-width: 50vw;
   }
 
+  .desktop\:max-w-0 {
+    max-width: 0rem;
+  }
+
+  .desktop\:max-w-none {
+    max-width: none;
+  }
+
   .desktop\:flex-row {
     flex-direction: row;
   }
@@ -2334,6 +2323,21 @@ html {
   .desktop\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .desktop\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .desktop\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .desktop\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .desktop\:text-2xl {
